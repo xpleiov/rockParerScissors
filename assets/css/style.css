@@ -1,0 +1,21 @@
+#header-image{
+    height: 25px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background: url('../images/rock-paper-scissors-today-tease-160317.jpg') no-repeat center center;
+
+}
+.header-title{
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    background-color: black;
+    width: 220px;
+    height: 60px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: white;
+}
