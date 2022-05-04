@@ -1,5 +1,9 @@
 function rockFunction(){ //players hand is rock // 0-rock,1-paper,2-scissor
 
+    document.getElementById(4).style.visibility = "hidden";
+    document.getElementById(5).style.visibility = "hidden";
+    document.getElementById(3).style.visibility = "visible";
+
     let num1 = Math.floor(Math.random() * 2); 
 
     if(num1 == "0"){
@@ -21,10 +25,13 @@ function rockFunction(){ //players hand is rock // 0-rock,1-paper,2-scissor
         console.log('');
     }    
     
-
 }
 function paperFunction(){  //players hand is paper //0-rock,1-paper,2-scissor
- 
+    
+    document.getElementById(3).style.visibility = "hidden";
+    document.getElementById(5).style.visibility = "hidden";
+    document.getElementById(4).style.visibility = "visible";
+
     let num1 = Math.floor(Math.random() * 2); 
 
     if(num1 == "0"){
@@ -45,10 +52,13 @@ function paperFunction(){  //players hand is paper //0-rock,1-paper,2-scissor
         console.log('computer ' + num1);
         console.log('');
     }    
-    
 
 }
 function scissorFunction(){ //players hand is scissor // 0-rock,1-paper,2-scissor
+
+    document.getElementById(4).style.visibility = "hidden";
+    document.getElementById(3).style.visibility = "hidden";
+    document.getElementById(5).style.visibility = "visible";
 
     let num1 = Math.floor(Math.random() * 2); 
 
@@ -71,6 +81,5 @@ function scissorFunction(){ //players hand is scissor // 0-rock,1-paper,2-scisso
         console.log('');
     }    
     
-
 }
 
