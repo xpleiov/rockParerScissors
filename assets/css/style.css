@@ -1,5 +1,6 @@
 #header-image{
-    height: 25px;
+    position: absolute;
+    height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background: url('../images/rock-paper-scissors-today-tease-160317.jpg') no-repeat center center;
@@ -19,6 +20,39 @@
     letter-spacing: 1.2px;
     color: white;
 }
-.test{
+.playersHandImage{
     visibility: hidden;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    width: 200px;
+    height: 200x;
+
 }
+.computersHandImage{
+    visibility: hidden;
+    position: absolute;
+    top: 300px;
+    right: 300px;
+    width: 200px;
+    height: 200x;
+
+}
+#rockButton{
+    left: 20%;
+    top: 150px;
+    position: absolute;
+}
+#paperButton{
+    left: 45%;
+    top: 150px;
+    position: absolute;
+}
+#scissorButton{
+    right: 20%;
+    top: 150px;
+    position: absolute;
+}
+.test{
+    display: block;
+  }
