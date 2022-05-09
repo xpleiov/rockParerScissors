@@ -39,20 +39,55 @@
 
 }
 #rockButton{
-    left: 20%;
-    top: 150px;
     position: absolute;
+    left: 15%;
+    top: 150px;
+    
 }
 #paperButton{
-    left: 45%;
-    top: 150px;
     position: absolute;
+    left: 40%;
+    top: 150px;
 }
 #scissorButton{
-    right: 20%;
-    top: 150px;
     position: absolute;
+    left: 65%;
+    top: 150px;
 }
-.test{
-    display: block;
-  }
+@media only screen and (max-width: 1050px){
+    #rockButton{
+        position: absolute;
+        left: 40%;
+        top: 150px;
+        
+    }
+    #paperButton{
+        position: absolute;
+        left: 40%;
+        top: 250px;
+    }
+    #scissorButton{
+        position: absolute;
+        left: 40%;
+        top: 350px;
+    }
+    .playersHandImage{
+        visibility: hidden;
+        position: absolute;
+        top: 450px;
+        left: 10%;
+        width: 200px;
+        height: 200x;
+    
+    }
+    .computersHandImage{
+        visibility: hidden;
+        position: absolute;
+        top: 450px;
+        right: 10%;
+        width: 200px;
+        height: 200x;
+    
+    }
+    
+}
