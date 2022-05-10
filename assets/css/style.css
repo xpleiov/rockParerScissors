@@ -91,3 +91,40 @@
     }
     
 }
+@media only screen and (max-width: 500px){
+    #rockButton{
+        position: absolute;
+        left: 15%;
+        top: 150px;
+        
+    }
+    #paperButton{
+        position: absolute;
+        left: 15%;
+        top: 250px;
+    }
+    #scissorButton{
+        position: absolute;
+        left: 15%;
+        top: 350px;
+    }
+    .playersHandImage{
+        visibility: hidden;
+        position: absolute;
+        top: 450px;
+        left: 15%;
+        width: 200px;
+        height: 200x;
+    
+    }
+    .computersHandImage{
+        visibility: hidden;
+        position: absolute;
+        top: 600px;
+        left: 15%;
+        width: 200px;
+        height: 200x;
+    
+    }
+    
+}
