@@ -25,3 +25,4 @@ here is also a quick overview over what the lightHouse looks like. accessibillit
 
 
 
+The attributes to buttonstyle in css were inspiered by the love math project.
