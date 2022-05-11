@@ -12,6 +12,11 @@ After you have picked your hand you will also get an alert with the outcome of t
 
 You will also be shown a picture of the hand you played and the computers hand, on the left side will be what you have picked and on the right will be what the computer have randomly picked.
 
+![image](https://user-images.githubusercontent.com/100727900/167809702-8f545f1c-b5a1-4c05-b9a2-0331ee073f83.png) ![image](https://user-images.githubusercontent.com/100727900/167810925-b044ef9f-224f-46dc-885f-577f252b1ab7.png)
+
+The webpage will make its content easly accesseble with changing it`s layout depending on it`s screensize. So if you want to play on smaller screens the buttons will be stacked on top of each other. the same with the pictures, you will see the picture of what you chose on the top and what the computer randomly picked on the bottom
+
+
 
 
 ![lightHouse](https://user-images.githubusercontent.com/100727900/167514335-9da727a3-4f9c-40e9-85b5-e47a58f93ee6.PNG)
